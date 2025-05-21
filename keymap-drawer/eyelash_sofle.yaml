@@ -28,7 +28,7 @@ layers:
   - P
   - {t: \, s: '|'}
   - {t: '$$mdi:keyboard-esc$$', h: '$$mdi:apple-keyboard-control$$'}
-  - A
+  - {t: A, h: '$$mdi:apple-keyboard-command$$'}
   - S
   - D
   - F
