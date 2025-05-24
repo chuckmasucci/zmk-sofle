@@ -69,6 +69,8 @@
         require-prior-idle-ms = <175>;
         flavor = "balanced";
         hold-while-undecided;
+        hold-trigger-key-positions = <13 53 54 55 56 57 59 60 61 62 63>;
+        hold-trigger-on-release;
     };
 
     behaviors {
