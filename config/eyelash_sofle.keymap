@@ -77,6 +77,8 @@
         label = "TD_DOUBLE_TAP";
         #binding-cells = <0>;
         bindings = <&kp RCTRL>, <&kp RS(RCTRL)>;
+
+        tapping-term-ms = <300>;
     };
 
     behaviors {
