@@ -63,7 +63,7 @@ layers:
   - $$mdi:keyboard-space$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - RMETA
-  - $$mdi:apple-keyboard-option$$
+  - '&td_double_tap'
   - $$mdi:backspace-reverse-outline$$
   layer1:
   - {t: '`', s: '~'}
