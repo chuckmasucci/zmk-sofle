@@ -3,13 +3,13 @@
 
 #include <input/processors.dtsi>
 #include <zephyr/dt-bindings/input/input-event-codes.h>
+#include <locale/keys_se.h>
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/outputs.h>
 #include <dt-bindings/zmk/pointing.h>
 #include <dt-bindings/zmk/rgb.h>
-#include <locale/keys_se.h>
 
 &mmv_input_listener { input-processors = <&zip_xy_scaler 2 1>; };
 
@@ -69,7 +69,7 @@
         quick-tap-ms = <250>;
         flavor = "tap-preferred";
         hold-while-undecided;
-        hold-trigger-key-positions = <53 54 55 56 57 59 60 61 62 63 13>;
+        hold-trigger-key-positions = <53 54 55 56 57 59 60 61 62 63 41 42 29>;
         hold-trigger-on-release;
     };
 
