@@ -56,7 +56,7 @@ layers:
   - $$mdi:volume-off$$
   - '2'
   - $$mdi:apple-keyboard-option$$
-  - $$mdi:apple-keyboard-command$$
+  - '&td_double_tap_meta'
   - layer1
   - $$mdi:keyboard-space$$
   - $$mdi:keyboard-space$$
