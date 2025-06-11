@@ -65,8 +65,7 @@
         bindings = <&kp>, <&kp>;
 
         #binding-cells = <2>;
-        tapping-term-ms = <200>;
-        quick-tap-ms = <250>;
+        tapping-term-ms = <150>;
         flavor = "tap-preferred";
         hold-while-undecided;
         hold-trigger-key-positions = <53 54 55 56 57 59 60 61 62 63 41 42 29 15>;
