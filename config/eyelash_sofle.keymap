@@ -64,34 +64,34 @@
             display-name = "LAYER0";
         };
 
-        default {
-            bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-            >;
-
-            display-name = "default";
-            sensor-bindings = <&scroll_encoder>;
-        };
-
         right_mods {
-            display-name = "right_mods";
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans     &trans      &trans         &trans     &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans     &trans      &trans         &trans     &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &kp LCTRL  &kp RSHIFT  &kp RIGHT_ALT  &kp RMETA  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans     &trans      &trans         &trans     &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans     &trans      &trans         &trans
             >;
 
+            display-name = "right_mods";
             sensor-bindings = <&scroll_encoder>;
         };
 
         left_mods {
             display-name = "left_mods";
+            bindings = <
+&trans  &trans         &trans        &trans      &trans     &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans         &trans        &trans      &trans     &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &kp LEFT_META  &kp LEFT_ALT  &kp LSHIFT  &kp LCTRL  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans         &trans        &trans      &trans     &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans         &trans        &trans      &trans     &trans    &trans  &trans  &trans  &trans  &trans  &trans
+            >;
+
+            sensor-bindings = <&scroll_encoder>;
+        };
+
+        default {
+            display-name = "default";
             bindings = <
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
