@@ -68,7 +68,7 @@
             bindings = <
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans     &trans     &trans         &trans           &trans
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans     &trans     &trans         &trans           &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &kp RMETA  &kp RCTRL  &kp RIGHT_ALT  &kp RIGHT_SHIFT  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &sk RMETA  &sk RCTRL  &sk RIGHT_ALT  &sk RIGHT_SHIFT  &trans
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans     &trans     &trans         &trans           &trans
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans     &trans     &trans         &trans
             >;
@@ -82,7 +82,7 @@
             bindings = <
 &trans  &trans      &trans        &trans     &trans    &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans      &trans        &trans     &trans    &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &kp LSHIFT  &kp LEFT_ALT  &kp LCTRL  &kp LCMD  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &sk LSHIFT  &sk LEFT_ALT  &sk LCTRL  &sk LCMD  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans      &trans        &trans     &trans    &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans      &trans        &trans     &trans    &trans    &trans  &trans  &trans  &trans  &trans  &trans
             >;
