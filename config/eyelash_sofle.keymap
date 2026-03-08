@@ -67,7 +67,7 @@
         right_mods {
             bindings = <
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans     &trans     &trans           &trans         &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans     &none      &trans           &trans         &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans     &trans     &trans           &trans         &trans
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &sk RMETA  &sk RCTRL  &sk RIGHT_SHIFT  &sk RIGHT_ALT  &trans
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans     &trans     &trans           &trans         &trans
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans     &trans     &trans           &trans
